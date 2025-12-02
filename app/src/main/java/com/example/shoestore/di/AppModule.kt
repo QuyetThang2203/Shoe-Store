@@ -73,7 +73,7 @@ object AppModule {
 
         return GenerativeModel(
             modelName = "gemini-2.5-flash", // Sử dụng bản Pro (Text-only) hoặc gemini-pro-vision
-            apiKey = "AIzaSyA5L8b3KBgU_tPHzIObJFhRZUU_WCZ-Clo", // 🔥 THAY API KEY CỦA BẠN VÀO ĐÂY
+            apiKey = "", // 🔥 THAY API KEY CỦA BẠN VÀO ĐÂY
             safetySettings = safetySettings
         )
     }
